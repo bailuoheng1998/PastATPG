@@ -1,0 +1,210 @@
+// SPDX-FileCopyrightText: 2023 CASTest Corporation Limited
+// SPDX-License-Identifier: LGPL-v3
+
+#ifndef ICTEST_SAFLIST_H
+#define ICTEST_SAFLIST_H
+#include <algorithm>
+#include <fstream>
+#include <iostream>
+#include <list>
+#include <queue>
+#include <stack>
+#include <unordered_map>
+#include <unordered_set>
+#include <vector>
+
+#include "SAF.h"
+#include "netlist/CellNetlist.h"
+#include "netlist/PrimNetlist.h"
+#include "util/StringUtil.h"
+
+namespace ictest {
+
+struct CountSAFs {
+  // detected
+  int32_t DS_{0}; // detected by simulation
+  int32_t DI_{0}; // detected by implication
+  int32_t DT_CHAIN_TEST_{0};
+  // possible
+  int32_t PT_{0}; // possible untestable
+  int32_t PU_{0}; // possible testable
+  // atpg untestable
+  int32_t AU_{0};         //
+  int32_t ATPG_ABORT_{0}; // ATPG abort
+  // undetected
+  int32_t UC_{0}; // uncontrolled
+  int32_t UO_{0}; // unobserved
+  // untestable
+  int32_t UU_{0}; // unused
+  int32_t TI_{0}; // tied
+  int32_t BL_{0}; // blocked
+  int32_t RE_{0}; // redundant
+};
+
+struct SAF_LEVEL_CMP {
+  bool operator()(const SAF *a, const SAF *b) {
+    return a->GetSAFGate()->GetDPI() < b->GetSAFGate()->GetDPI();
+  }
+};
+
+class SAFList {
+public:
+  SAFList() {}
+  ~SAFList(){
+      for (auto fptr :uncollapsed_safs_){
+          delete fptr;
+      }
+  };
+  void SetupNetlist(PrimNetlist *primitive_netlist, CellNetlist *cell_netlist);
+
+  std::vector<SAF *> &GetUncollapsedSAFs() { return uncollapsed_safs_; };
+  std::vector<SAF *> &GetCollapsedSAFs() { return collapsed_safs_; }
+  SAF *GetNameToFault(const std::string &f_name, SAFType safType);
+  std::vector<std::vector<SAF *>> &GetEqvSAFs() { return *eqv_safs_; }
+
+  /**
+   * @brief 初始化gate2SAFs_結構，用於存儲gate 到safs的映射
+   */
+  void SetGate2SAFs();
+  std::vector<std::vector<SAF *>> &GetGate2SAFs() { return gate2SAFs_; }
+
+  // SAF is Stuck-At Fault
+  void SetSAFs();
+  /**
+   * @brief 生成內部故障
+   */
+  void SetInternalSAFs();
+  void GenerateInternalSAFs();
+  SAF *GenerateInternalCellPinSAF(std::string fault_name, SAFType sa,
+                                  Gate *gptr);
+  void GenerateInternalCellSAFs(const std::string &fault_name, Gate *gptr,
+                                Cell *cell_ptr, bool input_pin,
+                                int cell_pin_index);
+
+  /**
+   * @brief 生成等价故障
+   * @param flist 故障列表，如internal_safs_
+   */
+  void GenerateEqvSAFs(std::vector<SAF *> &flist);
+  /**
+   * @brief 根据gptr和sa，得出该门上的故障等价关系
+   * @param gptr
+   * @param sa
+   * @param optimize_gate_flag
+   */
+  void CheckEqvSAFRelation(Gate *gptr, int sa, bool optimize_gate_flag);
+
+  void GenerateExternalSAFs(const std::string& file_path);
+
+  std::string TmaxFormat2ICTest(const std::string& fault_name);
+
+  std::string ICTestFormat2TMax(const std::string& fault_name);
+
+  void SetExternalSAFs();
+
+private:
+  /**
+   * @brief 把SAF加入need_chain_test_fault结构中
+   * @param f saf
+   */
+  void AddSAFToChainTestSAFs(SAF *f) {
+    if (f->GetSAFStatus() == SAFStatus::UC) {
+      chain_test_safs_.push_back(f);
+    }
+  }
+  /**
+   * @brief 找到scan_enables gates上的DI故障
+   * @param gid_visited_map 用于bfs蕴含电路图，标记已蕴含过的门
+   */
+  void FindScanEnablesDISAF(std::unordered_set<int> &gid_visited_map);
+  /**
+   * @brief 找到scan_chain上的DI故障
+   * @param gid_visited_map 同上
+   * @param test_se_imply_q 用于存放test_mode gate
+   */
+  void FindScanChainDISAF(std::unordered_set<int> &gid_visited_map,
+                          std::queue<Gate *> &test_se_imply_q);
+  /**
+   * @brief 识别test_mode上的DI故障
+   * @param gid_visited_map 同上
+   * @param test_se_imply_q 用于存放test_mode gate
+   */
+  void FindTestModeDISAF(std::unordered_set<int> &gid_visited_map,
+                         std::queue<Gate *> &test_se_imply_q);
+
+public:
+  /**
+   * @brief 判断DI故障
+   */
+  void FindDISAFs();
+
+  // statistic fault type count
+  void SetCountSAFs();
+  int32_t NumDS();
+  int32_t NumDI();
+  int32_t NumDT_CHAIN_TEST();
+  int32_t NumPT();
+  int32_t NumPU();
+  int32_t NumAU();
+  int32_t NumATPG_ABORT();
+  int32_t NumUC();
+  int32_t NumUO();
+  int32_t NumUU();
+  int32_t NumTI();
+  int32_t NumBL();
+  int32_t NumRE();
+
+  // report输出故障信息到终端
+  void ReportSAF();
+
+private:
+  /**
+   * @brief convert logic value to int(only support logic0, logic1 and logicx)
+   * @param logic_v
+   * @return
+   */
+  static inline int LogicV2IntV(LogicValue logic_v) {
+    switch (logic_v) {
+    case LogicValue::LOGIC_0:
+      return 0;
+    case LogicValue::LOGIC_1:
+      return 1;
+    default:
+      return 2;
+    }
+  }
+
+private:
+  PrimNetlist *pnlist_{nullptr};
+  CellNetlist *cnlist_{nullptr};
+  //////////////////////////////////////////////////
+  // stuck-at fault list
+  std::vector<SAF *> uncollapsed_safs_;
+  std::vector<SAF *> collapsed_safs_;
+
+  std::vector<std::vector<SAF *>> *eqv_safs_;
+  std::unordered_map<int32_t, int32_t> eqv_group_idx_;
+  std::vector<std::vector<int32_t>> eqv_group_;
+
+  // generated by ICTest
+  std::vector<SAF *> internal_safs_;
+  std::vector<std::vector<SAF *>> internal_eqv_safs_;
+
+  // generated by TMAX
+  std::vector<SAF *> external_safs_;
+  std::vector<std::vector<SAF *>> external_eqv_safs_;
+
+  // gate id to SAFs
+  std::vector<std::vector<SAF *>> gate2SAFs_;
+
+  // chain SAFs
+  std::vector<SAF *> chain_test_safs_;
+
+  // SAFs name to fault
+  std::unordered_map<std::string, SAF *> name2saf_;
+
+  // statistic different SAF type nums
+  CountSAFs count_safs_;
+};
+} // namespace ictest
+#endif // ICTEST_SAFLIST_H

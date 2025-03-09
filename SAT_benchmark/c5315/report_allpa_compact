@@ -1,0 +1,4775 @@
+Start test all ATPG
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestATPG
+[ RUN      ] TestATPG.TestFault
+[2024-11-09 14:38:17.238] [info] [TestSATATPG_ND_backtrack.cpp:55] # start SAF ATPG test 
+At Fault: ==I_862==Y and id is0 0
+c final reduce number = 10
+c PA 1229 in 1241 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1229 in 1241 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1233 in 1245 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1233 in 1244 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1235 in 1246 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1237 in 1248 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1237 in 1248 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1237 in 1248 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1235 in 1246 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1242 in 1253 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1244 in 1255 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1244 in 1255 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1242 in 1253 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1244 in 1255 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 612 in 613 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 614 in 615 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 614 in 615 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 614 in 615 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 687 in 697 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 689 in 699 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 691 in 701 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 691 in 701 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 687 in 697 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1354 in 1366 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1358 in 1370 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1352 in 1364 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1356 in 1368 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1358 in 1370 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1362 in 1374 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1382 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1382 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1384 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1386 in 1398 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:19.573] fault sim start...
+[2024-11-09 14:38:19.573] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:19.577]        1             595         12.3547%        0.0032s    
+fail to open txt!
+At Fault: ==AND2_2304==Y and id is2 0
+c final reduce number = 9
+c PA 1232 in 1243 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1234 in 1245 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1232 in 1243 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1236 in 1247 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1232 in 1243 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1236 in 1247 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1238 in 1249 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1236 in 1247 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1238 in 1249 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1238 in 1249 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1240 in 1251 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1243 in 1254 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1324 in 1335 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1326 in 1337 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1328 in 1339 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1330 in 1341 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 689 in 699 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 694 in 704 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1354 in 1366 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1362 in 1374 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1382 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1382 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1386 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1396 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1388 in 1400 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1404 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1394 in 1406 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:21.353] fault sim start...
+[2024-11-09 14:38:21.353] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:21.354]        1             117         14.7841%        0.0015s    
+fail to open txt!
+At Fault: ==U18==Y and id is29 1
+c final reduce number = 10
+c PA 1236 in 1247 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1236 in 1247 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1239 in 1250 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1241 in 1252 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1244 in 1255 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1257 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1249 in 1260 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1322 in 1333 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 610 in 611 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1328 in 1339 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:21.981] fault sim start...
+[2024-11-09 14:38:21.981] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:21.983]        1             227         19.4975%        0.0016s    
+fail to open txt!
+At Fault: ==U2==A and id is30 0
+c final reduce number = 8
+c PA 1233 in 1242 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1236 in 1245 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1247 in 1256 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1246 in 1255 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1245 in 1254 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1328 in 1337 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1324 in 1333 (undef_ct = 9 )
+SATISFIABLE
+[2024-11-09 14:38:22.499] fault sim start...
+[2024-11-09 14:38:22.499] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:22.500]        1             230         24.2733%        0.0013s    
+fail to open txt!
+At Fault: ==U28==A and id is42 0
+c final reduce number = 7
+c PA 1243 in 1252 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 9
+c PA 1328 in 1337 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1328 in 1337 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 615 in 624 (undef_ct = 9 )
+SATISFIABLE
+[2024-11-09 14:38:22.842] fault sim start...
+[2024-11-09 14:38:22.843] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:22.844]        1             27          24.8339%        0.0017s    
+fail to open txt!
+At Fault: ==U19==A and id is47 0
+c final reduce number = 19
+c PA 1232 in 1252 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 2
+c PA 1319 in 1339 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1321 in 1341 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1319 in 1339 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1321 in 1341 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 605 in 615 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1324 in 1344 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1345 in 1366 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1347 in 1368 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1349 in 1370 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1355 in 1376 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1357 in 1378 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1359 in 1380 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1393 in 1414 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:24.982] fault sim start...
+[2024-11-09 14:38:24.982] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:24.984]        1             213         29.2566%        0.0021s    
+fail to open txt!
+At Fault: ==OR2_2282==B and id is72 0
+c final reduce number = 13
+c PA 1321 in 1341 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1326 in 1346 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1371 in 1392 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1373 in 1394 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1393 in 1414 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1401 in 1422 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:25.995] fault sim start...
+[2024-11-09 14:38:25.995] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:25.996]        1             81          30.9385%        0.0014s    
+fail to open txt!
+At Fault: ==NAND2_2273==B and id is88 1
+c final reduce number = 19
+c PA 1349 in 1370 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1351 in 1372 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1353 in 1374 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1395 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:26.629] fault sim start...
+[2024-11-09 14:38:26.629] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:26.630]        1             55          32.0806%        0.0011s    
+fail to open txt!
+At Fault: ==NAND2_2272==A and id is96 1
+c final reduce number = 21
+c PA 1349 in 1370 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1351 in 1372 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1353 in 1374 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1397 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1402 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1393 in 1414 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1359 in 1380 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1395 in 1416 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1426 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1409 in 1430 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1432 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1413 in 1434 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1402 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:28.403] fault sim start...
+[2024-11-09 14:38:28.403] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:28.404]        1             123         34.6346%        0.0013s    
+fail to open txt!
+At Fault: ==I_855==Y and id is99 1
+c final reduce number = 13
+c PA 1353 in 1374 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1371 in 1392 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1402 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1353 in 1374 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1395 in 1416 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1395 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:30.146] fault sim start...
+[2024-11-09 14:38:30.146] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:30.147]        1             102         36.7525%        0.0013s    
+fail to open txt!
+At Fault: ==NAND2_2266==A and id is103 1
+c final reduce number = 8
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1386 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1399 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1388 in 1400 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1390 in 1402 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1404 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1394 in 1406 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1386 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1410 in 1422 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1388 in 1400 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1390 in 1402 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1390 in 1402 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1398 in 1410 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 430 in 443 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 11
+c PA 380 in 391 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 382 in 393 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 381 in 392 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:31.995] fault sim start...
+[2024-11-09 14:38:31.995] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:31.996]        1             134         39.5349%        0.0012s    
+fail to open txt!
+At Fault: ==I_841==Y and id is134 1
+c final reduce number = 9
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1396 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1410 in 1422 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1424 in 1436 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 430 in 443 (undef_ct = 13 )
+SATISFIABLE
+[2024-11-09 14:38:32.553] fault sim start...
+[2024-11-09 14:38:32.553] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:32.554]        1             29          40.1370%        0.0011s    
+fail to open txt!
+At Fault: ==I_843==Y and id is136 1
+c final reduce number = 14
+c PA 1368 in 1390 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1398 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1398 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1402 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1382 in 1404 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1406 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1406 (undef_ct = 22 )
+SATISFIABLE
+[2024-11-09 14:38:33.137] fault sim start...
+[2024-11-09 14:38:33.137] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:33.138]        1             10          40.3447%        0.0009s    
+fail to open txt!
+At Fault: ==AND2_2254==A and id is161 0
+c final reduce number = 19
+c PA 1366 in 1388 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1386 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1366 in 1388 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1396 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1396 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1406 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1414 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1394 in 1416 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1398 in 1420 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1414 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1394 in 1416 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 18
+c PA 402 in 422 (undef_ct = 20 )
+SATISFIABLE
+[2024-11-09 14:38:34.143] fault sim start...
+[2024-11-09 14:38:34.143] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:34.144]        1             48          41.3414%        0.0011s    
+fail to open txt!
+At Fault: ==NAND2_2239==B and id is172 1
+c final reduce number = 20
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 10
+c PA 250 in 262 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 252 in 264 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 16
+c PA 333 in 349 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 336 in 352 (undef_ct = 16 )
+SATISFIABLE
+[2024-11-09 14:38:34.437] fault sim start...
+[2024-11-09 14:38:34.437] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:34.438]        1             17          41.6944%        0.0009s    
+fail to open txt!
+At Fault: ==I_822==Y and id is179 1
+c final reduce number = 19
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1389 in 1410 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1395 in 1416 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1401 in 1422 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1417 in 1438 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1421 in 1442 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1446 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1437 in 1458 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1439 in 1460 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 8
+c PA 231 in 241 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 229 in 239 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 11
+c PA 237 in 249 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 239 in 251 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 239 in 251 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:35.481] fault sim start...
+[2024-11-09 14:38:35.481] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:35.482]        1             53          42.7949%        0.0010s    
+fail to open txt!
+At Fault: ==I_821==A and id is186 0
+c final reduce number = 18
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1371 in 1392 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 11
+c PA 232 in 243 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 16
+c PA 342 in 358 (undef_ct = 16 )
+SATISFIABLE
+[2024-11-09 14:38:35.763] fault sim start...
+[2024-11-09 14:38:35.763] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:35.764]        1             78          44.4145%        0.0010s    
+fail to open txt!
+At Fault: ==NAND2_2247==B and id is187 1
+c final reduce number = 9
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 2
+c PA 244 in 247 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 244 in 247 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:38:36.041] fault sim start...
+[2024-11-09 14:38:36.041] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:36.042]        1             20          44.8297%        0.0008s    
+fail to open txt!
+At Fault: ==I_793==A and id is222 0
+c final reduce number = 2
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1413 in 1425 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1390 in 1402 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1404 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1394 in 1406 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1404 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1408 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 11
+c PA 384 in 395 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 387 in 398 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 262 in 270 (undef_ct = 8 )
+SATISFIABLE
+[2024-11-09 14:38:36.627] fault sim start...
+[2024-11-09 14:38:36.627] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:36.628]        1             44          45.7434%        0.0010s    
+fail to open txt!
+At Fault: ==NAND2_2204==B and id is228 1
+c final reduce number = 13
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1398 in 1420 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 22
+c PA 425 in 447 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 18
+c PA 373 in 391 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 376 in 394 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 20
+c PA 408 in 428 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 238 in 248 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 13
+c PA 302 in 315 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 230 in 239 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 228 in 237 (undef_ct = 9 )
+SATISFIABLE
+[2024-11-09 14:38:36.921] fault sim start...
+[2024-11-09 14:38:36.921] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:36.922]        1             45          46.6777%        0.0009s    
+fail to open txt!
+At Fault: ==NAND2_2192==B and id is231 1
+c final reduce number = 6
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1436 in 1448 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 13
+c PA 435 in 448 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 11
+c PA 383 in 394 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:37.202] fault sim start...
+[2024-11-09 14:38:37.202] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:37.203]        1             22          47.1346%        0.0008s    
+fail to open txt!
+At Fault: ==I_808==A and id is257 0
+c final reduce number = 19
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1389 in 1410 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1415 in 1436 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:37.530] fault sim start...
+[2024-11-09 14:38:37.530] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:37.531]        1             10          47.3422%        0.0008s    
+fail to open txt!
+At Fault: ==I_812==Y and id is275 1
+c final reduce number = 16
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1375 in 1396 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 16
+c PA 334 in 350 (undef_ct = 16 )
+SATISFIABLE
+[2024-11-09 14:38:37.856] fault sim start...
+[2024-11-09 14:38:37.856] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:37.857]        1             30          47.9651%        0.0009s    
+fail to open txt!
+At Fault: ==I_811==A and id is278 0
+c final reduce number = 21
+c PA 1368 in 1390 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1392 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1412 in 1434 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1414 in 1436 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1388 in 1410 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1392 in 1414 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1400 in 1422 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1404 in 1426 (undef_ct = 22 )
+SATISFIABLE
+[2024-11-09 14:38:38.543] fault sim start...
+[2024-11-09 14:38:38.543] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:38.544]        1             42          48.8372%        0.0008s    
+fail to open txt!
+At Fault: ==NAND2_2213==A and id is280 1
+c final reduce number = 19
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1371 in 1392 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:38.860] fault sim start...
+[2024-11-09 14:38:38.860] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:38.861]        1             11          49.0656%        0.0007s    
+fail to open txt!
+At Fault: ==NAND2_2216==A and id is300 1
+c final reduce number = 8
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1406 in 1418 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1423 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:39.298] fault sim start...
+[2024-11-09 14:38:39.298] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:39.299]        1             12          49.3148%        0.0009s    
+fail to open txt!
+At Fault: ==I_801==Y and id is303 1
+c final reduce number = 10
+c PA 1371 in 1392 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 9
+c PA 245 in 255 (undef_ct = 10 )
+SATISFIABLE
+[2024-11-09 14:38:39.554] fault sim start...
+[2024-11-09 14:38:39.554] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:39.555]        1             28          49.8962%        0.0009s    
+fail to open txt!
+At Fault: ==I_797==Y and id is305 1
+c final reduce number = 5
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 12
+c PA 420 in 432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 7
+c PA 268 in 275 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 271 in 278 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 6
+c PA 249 in 255 (undef_ct = 6 )
+SATISFIABLE
+[2024-11-09 14:38:39.760] fault sim start...
+[2024-11-09 14:38:39.760] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:39.761]        1             62          51.1836%        0.0009s    
+fail to open txt!
+At Fault: ==I_761==A and id is311 0
+c final reduce number = 21
+c PA 1413 in 1434 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1417 in 1438 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 18
+c PA 375 in 393 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 378 in 396 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 227 in 237 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 4
+c PA 166 in 170 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 164 in 168 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 463 in 483 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 457 in 477 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 459 in 479 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 462 in 482 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 463 in 483 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 462 in 482 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 459 in 479 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 462 in 482 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 464 in 484 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 462 in 482 (undef_ct = 20 )
+SATISFIABLE
+[2024-11-09 14:38:40.088] fault sim start...
+[2024-11-09 14:38:40.088] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:40.089]        1             227         55.8970%        0.0010s    
+fail to open txt!
+At Fault: ==NAND2_2167==B and id is315 1
+c final reduce number = 19
+c PA 1409 in 1430 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1432 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1437 in 1458 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1439 in 1460 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1449 in 1470 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 10
+c PA 243 in 254 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 10
+c PA 448 in 469 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1463 in 1484 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1465 in 1486 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1467 in 1488 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:40.801] fault sim start...
+[2024-11-09 14:38:40.801] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:40.802]        1             108         58.1395%        0.0007s    
+fail to open txt!
+At Fault: ==NAND2_2211==B and id is324 1
+c final reduce number = 11
+c PA 1379 in 1392 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1435 in 1448 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1437 in 1450 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1389 in 1402 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1395 in 1408 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1410 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1412 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1403 in 1416 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1418 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1418 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1424 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1453 in 1466 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1457 in 1470 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1461 in 1474 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1463 in 1476 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1463 in 1476 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 3
+c PA 168 in 171 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 168 in 171 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1473 in 1486 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 196 in 196 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 198 in 198 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 203 in 203 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 198 in 198 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 194 in 194 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 188 in 198 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 171 in 174 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:38:42.007] fault sim start...
+[2024-11-09 14:38:42.007] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:42.008]        1             126         60.7558%        0.0010s    
+fail to open txt!
+At Fault: ==NAND2_2152==A and id is343 1
+c final reduce number = 9
+c PA 1424 in 1436 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 5
+c PA 211 in 216 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 465 in 475 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 3
+c PA 182 in 185 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1485 in 1497 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:42.280] fault sim start...
+[2024-11-09 14:38:42.280] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:42.280]        1             91          62.6453%        0.0006s    
+fail to open txt!
+At Fault: ==I_768==A and id is381 0
+c final reduce number = 18
+c PA 1383 in 1404 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 13
+c PA 297 in 310 (undef_ct = 13 )
+SATISFIABLE
+[2024-11-09 14:38:42.537] fault sim start...
+[2024-11-09 14:38:42.537] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:42.537]        1             10          62.8530%        0.0006s    
+fail to open txt!
+At Fault: ==NAND2_2135==A and id is387 1
+c final reduce number = 12
+c PA 1423 in 1444 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1446 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:42.860] fault sim start...
+[2024-11-09 14:38:42.860] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:42.860]        1              9          63.0399%        0.0005s    
+fail to open txt!
+At Fault: ==NAND2_2136==A and id is413 1
+c final reduce number = 19
+c PA 1425 in 1446 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1429 in 1450 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:43.173] fault sim start...
+[2024-11-09 14:38:43.173] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:43.173]        1              9          63.2267%        0.0005s    
+fail to open txt!
+At Fault: ==NAND2_2130==B and id is431 1
+c final reduce number = 10
+c PA 1438 in 1450 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1450 in 1462 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1452 in 1464 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 245 in 251 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 248 in 254 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 5
+c PA 213 in 218 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 470 in 480 (undef_ct = 10 )
+SATISFIABLE
+[2024-11-09 14:38:43.500] fault sim start...
+[2024-11-09 14:38:43.500] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:43.501]        1             55          64.3688%        0.0006s    
+fail to open txt!
+At Fault: ==I_723==A and id is469 0
+c final reduce number = 11
+c PA 1442 in 1454 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 7
+c PA 263 in 270 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1469 in 1481 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1473 in 1485 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1477 in 1489 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 3
+c PA 178 in 181 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:38:43.890] fault sim start...
+[2024-11-09 14:38:43.890] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:43.890]        1             21          64.8048%        0.0006s    
+fail to open txt!
+At Fault: ==I_744==A and id is508 0
+c final reduce number = 17
+c PA 1411 in 1432 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1415 in 1436 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:44.141] fault sim start...
+[2024-11-09 14:38:44.141] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:44.142]        1              4          64.8879%        0.0005s    
+fail to open txt!
+At Fault: ==I_748==Y and id is561 1
+c final reduce number = 18
+c PA 1395 in 1416 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1404 in 1425 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1403 in 1424 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:44.450] fault sim start...
+[2024-11-09 14:38:44.450] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:44.451]        1             12          65.1370%        0.0005s    
+fail to open txt!
+At Fault: ==I_747==A and id is564 0
+c final reduce number = 14
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1375 in 1396 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:44.812] fault sim start...
+[2024-11-09 14:38:44.812] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:44.812]        1             18          65.5108%        0.0006s    
+fail to open txt!
+At Fault: ==NAND2_2149==A and id is566 1
+c final reduce number = 17
+c PA 1394 in 1416 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1418 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1398 in 1420 (undef_ct = 22 )
+SATISFIABLE
+[2024-11-09 14:38:45.115] fault sim start...
+[2024-11-09 14:38:45.115] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:45.116]        1             14          65.8015%        0.0005s    
+fail to open txt!
+At Fault: ==U163==Y and id is588 0
+c final reduce number = 21
+c PA 415 in 436 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 5
+c PA 333 in 347 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 7
+c PA 298 in 310 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 8
+c PA 264 in 272 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 6
+c PA 247 in 253 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 4
+c PA 220 in 224 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:38:45.271] fault sim start...
+[2024-11-09 14:38:45.271] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:45.271]        1             28          66.3829%        0.0006s    
+fail to open txt!
+At Fault: ==I_749==A and id is682 0
+c final reduce number = 6
+c PA 1406 in 1418 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1386 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1374 in 1386 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1418 in 1430 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1430 in 1442 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 3
+c PA 179 in 182 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 465 in 476 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1448 in 1460 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1454 in 1466 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1456 in 1468 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 467 in 478 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:46.205] fault sim start...
+[2024-11-09 14:38:46.205] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:46.205]        1             46          67.3380%        0.0007s    
+fail to open txt!
+At Fault: ==NAND2_2146==B and id is684 1
+c final reduce number = 8
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 10
+c PA 654 in 665 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:46.413] fault sim start...
+[2024-11-09 14:38:46.413] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:46.414]        1             13          67.6080%        0.0006s    
+fail to open txt!
+At Fault: ==NAND2_2145==B and id is685 1
+c final reduce number = 1
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1437 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1432 in 1444 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1434 in 1446 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1436 in 1448 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:46.928] fault sim start...
+[2024-11-09 14:38:46.928] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:46.929]        1             10          67.8156%        0.0004s    
+fail to open txt!
+At Fault: ==NAND2_2144==B and id is686 1
+c final reduce number = 8
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:47.118] fault sim start...
+[2024-11-09 14:38:47.118] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:47.119]        1             16          68.1478%        0.0004s    
+fail to open txt!
+At Fault: ==I_691==A and id is695 0
+c final reduce number = 19
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1443 in 1464 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 22
+c PA 457 in 480 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 459 in 482 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 461 in 484 (undef_ct = 23 )
+SATISFIABLE
+[2024-11-09 14:38:47.394] fault sim start...
+[2024-11-09 14:38:47.394] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:47.394]        1             19          68.5424%        0.0005s    
+fail to open txt!
+At Fault: ==I_681==A and id is754 0
+c final reduce number = 7
+c PA 1453 in 1466 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1459 in 1472 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1465 in 1478 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1467 in 1480 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1449 in 1462 (undef_ct = 13 )
+SATISFIABLE
+[2024-11-09 14:38:47.845] fault sim start...
+[2024-11-09 14:38:47.845] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:47.846]        1             10          68.7500%        0.0004s    
+fail to open txt!
+At Fault: ==AND9_1972_8==A and id is789 0
+c final reduce number = 2
+c PA 314 in 323 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 316 in 325 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 318 in 327 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 320 in 329 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 322 in 331 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 324 in 333 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 326 in 335 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 329 in 338 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 4
+c PA 305 in 313 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 307 in 315 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 309 in 317 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 311 in 319 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 313 in 321 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 315 in 323 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 317 in 325 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 320 in 328 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 7
+c PA 223 in 230 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 226 in 233 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 6
+c PA 684 in 694 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 9
+c PA 1338 in 1349 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1362 in 1374 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1360 in 1372 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 197 in 197 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 200 in 200 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1366 in 1378 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1368 in 1380 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1384 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1376 in 1388 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 196 in 196 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 470 in 480 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1393 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1397 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1399 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:48.843] fault sim start...
+[2024-11-09 14:38:48.843] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:48.844]        1             218         73.2766%        0.0008s    
+fail to open txt!
+At Fault: ==I_718==A and id is825 0
+c final reduce number = 21
+c PA 1425 in 1446 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1448 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1449 in 1470 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1462 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1453 in 1474 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1455 in 1476 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:49.437] fault sim start...
+[2024-11-09 14:38:49.437] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:49.437]        1              8          73.4427%        0.0006s    
+fail to open txt!
+At Fault: ==NAND2_2140==A and id is911 1
+c final reduce number = 8
+c PA 1410 in 1422 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:49.641] fault sim start...
+[2024-11-09 14:38:49.641] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:49.642]        1              3          73.5050%        0.0005s    
+fail to open txt!
+At Fault: ==I_708==A and id is984 0
+c final reduce number = 10
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1437 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1430 in 1442 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1432 in 1444 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1434 in 1446 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1436 in 1448 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 11
+c PA 725 in 738 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 727 in 740 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1455 in 1467 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1457 in 1469 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1459 in 1471 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:50.383] fault sim start...
+[2024-11-09 14:38:50.383] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:50.383]        1             23          73.9826%        0.0004s    
+fail to open txt!
+At Fault: ==U51==A and id is1029 1
+c final reduce number = 5
+c PA 1378 in 1390 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1396 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1386 in 1398 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1437 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 342 in 342 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:38:50.827] fault sim start...
+[2024-11-09 14:38:50.827] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:50.827]        1              6          74.1071%        0.0005s    
+fail to open txt!
+At Fault: ==I_707==Y and id is1053 1
+c final reduce number = 12
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1434 in 1446 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1436 in 1448 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:51.154] fault sim start...
+[2024-11-09 14:38:51.154] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:51.154]        1              5          74.2110%        0.0004s    
+fail to open txt!
+At Fault: ==AND9_1973_5==B and id is1098 1
+c final reduce number = 5
+c PA 292 in 300 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 7
+c PA 338 in 347 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 10
+c PA 1335 in 1346 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1362 in 1374 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1362 in 1374 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1368 in 1380 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 215 in 224 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 218 in 227 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1364 in 1376 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1382 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1384 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1384 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1554 in 1566 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 10
+c PA 729 in 740 (undef_ct = 11 )
+SATISFIABLE
+[2024-11-09 14:38:51.847] fault sim start...
+[2024-11-09 14:38:51.847] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:51.848]        1             86          75.9967%        0.0006s    
+fail to open txt!
+At Fault: ==AND9_1972_5==A and id is1140 1
+c final reduce number = 5
+c PA 320 in 329 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 19
+c PA 1437 in 1459 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1439 in 1461 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1463 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1473 in 1495 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1435 in 1457 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 20
+c PA 665 in 687 (undef_ct = 22 )
+SATISFIABLE
+[2024-11-09 14:38:52.318] fault sim start...
+[2024-11-09 14:38:52.318] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:52.318]        1             15          76.3081%        0.0006s    
+fail to open txt!
+At Fault: ==AND9_1973_3==Y and id is1240 1
+c final reduce number = 3
+c PA 293 in 301 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 10
+c PA 1357 in 1369 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1359 in 1371 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1373 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1357 in 1369 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1375 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1377 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:52.807] fault sim start...
+[2024-11-09 14:38:52.807] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:52.808]        1             43          77.2010%        0.0007s    
+fail to open txt!
+At Fault: ==OR2_1859==A and id is1272 0
+c final reduce number = 18
+c PA 631 in 652 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 637 in 658 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 635 in 656 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:52.981] fault sim start...
+[2024-11-09 14:38:52.981] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:52.981]        1             10          77.4086%        0.0006s    
+fail to open txt!
+At Fault: ==AND2_1621==A and id is1294 0
+c final reduce number = 8
+c PA 167 in 177 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 2
+c PA 313 in 321 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 19
+c PA 647 in 667 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 336 in 343 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 216 in 225 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 197 in 206 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 237 in 246 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 241 in 250 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 239 in 248 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 240 in 249 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 197 in 206 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 12
+c PA 487 in 500 (undef_ct = 13 )
+SATISFIABLE
+[2024-11-09 14:38:53.294] fault sim start...
+[2024-11-09 14:38:53.294] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:53.295]        1             45          78.3430%        0.0006s    
+fail to open txt!
+At Fault: ==I_671==Y and id is1326 1
+c final reduce number = 12
+c PA 1423 in 1444 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1429 in 1450 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1431 in 1452 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1435 in 1456 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1437 in 1458 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1439 in 1460 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1439 in 1460 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 22
+c PA 471 in 494 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 473 in 496 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 475 in 498 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 477 in 500 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 473 in 496 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 475 in 498 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 477 in 500 (undef_ct = 23 )
+SATISFIABLE
+[2024-11-09 14:38:53.924] fault sim start...
+[2024-11-09 14:38:53.924] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:53.925]        1             33          79.0282%        0.0007s    
+fail to open txt!
+At Fault: ==AND2_1621==B and id is1370 1
+c final reduce number = 6
+c PA 167 in 177 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 9
+c PA 1432 in 1444 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1434 in 1446 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1436 in 1448 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 11
+c PA 727 in 740 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 733 in 746 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 11
+c PA 493 in 505 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 495 in 507 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 497 in 509 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 493 in 505 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 495 in 507 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 497 in 509 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 9
+c PA 657 in 667 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 663 in 673 (undef_ct = 10 )
+SATISFIABLE
+[2024-11-09 14:38:54.375] fault sim start...
+[2024-11-09 14:38:54.376] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:54.376]        1             30          79.6512%        0.0006s    
+fail to open txt!
+At Fault: ==I_547==Y and id is1438 1
+c final reduce number = 14
+c PA 1465 in 1486 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1471 in 1492 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1473 in 1494 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:54.712] fault sim start...
+[2024-11-09 14:38:54.712] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:54.713]        1              5          79.7550%        0.0005s    
+fail to open txt!
+At Fault: ==AND2_1795==A and id is1529 1
+c final reduce number = 14
+c PA 646 in 668 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 21
+c PA 1467 in 1488 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:54.940] fault sim start...
+[2024-11-09 14:38:54.940] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:54.941]        1              6          79.8796%        0.0006s    
+fail to open txt!
+At Fault: ==U636==A and id is1578 1
+c final reduce number = 10
+c PA 1413 in 1425 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1415 in 1427 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1419 in 1431 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1446 in 1458 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1448 in 1460 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:55.406] fault sim start...
+[2024-11-09 14:38:55.406] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:55.406]        1              6          80.0042%        0.0005s    
+fail to open txt!
+At Fault: ==NAND2_1893==A and id is1588 1
+c final reduce number = 7
+c PA 1438 in 1450 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 10
+c PA 664 in 675 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 666 in 677 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 3
+c PA 177 in 180 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 3
+c PA 185 in 188 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:38:55.648] fault sim start...
+[2024-11-09 14:38:55.648] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:55.649]        1             11          80.2326%        0.0005s    
+fail to open txt!
+At Fault: ==NOR2_1671==Y and id is1642 1
+c final reduce number = 11
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1393 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1393 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1402 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1393 in 1414 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:38:56.450] fault sim start...
+[2024-11-09 14:38:56.450] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:56.451]        1             45          81.1669%        0.0005s    
+fail to open txt!
+At Fault: ==I_500==A and id is1643 0
+c final reduce number = 3
+c PA 1484 in 1496 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:38:56.660] fault sim start...
+[2024-11-09 14:38:56.660] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:56.660]        1              4          81.2500%        0.0003s    
+fail to open txt!
+At Fault: ==AND2_1546==Y and id is1662 0
+c final reduce number = 8
+c PA 143 in 152 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 143 in 152 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 6
+c PA 135 in 144 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 135 in 144 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 158 in 167 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 158 in 167 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 137 in 146 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 20
+c PA 1195 in 1223 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 18
+c PA 1417 in 1437 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1420 in 1440 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1442 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1414 in 1434 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1436 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1170 in 1197 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1170 in 1197 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1214 in 1242 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1216 in 1244 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1216 in 1244 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1218 in 1246 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1154 in 1181 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1156 in 1183 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1156 in 1183 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1158 in 1185 (undef_ct = 27 )
+SATISFIABLE
+c final reduce number = 21
+c PA 501 in 523 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 503 in 525 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 505 in 527 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 15
+c PA 636 in 653 (undef_ct = 17 )
+SATISFIABLE
+c final reduce number = 0
+c PA 638 in 655 (undef_ct = 17 )
+SATISFIABLE
+[2024-11-09 14:38:57.664] fault sim start...
+[2024-11-09 14:38:57.664] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:57.664]        1             51          82.3090%        0.0006s    
+fail to open txt!
+At Fault: ==AND9_1973_2==A and id is1668 1
+c final reduce number = 1
+c PA 297 in 305 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 3
+c PA 1396 in 1399 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 4
+c PA 1157 in 1165 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1165 in 1173 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 222 in 222 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 1
+c PA 660 in 662 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 2
+c PA 828 in 832 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 830 in 834 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 1
+c PA 643 in 645 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 645 in 647 (undef_ct = 2 )
+SATISFIABLE
+[2024-11-09 14:38:58.042] fault sim start...
+[2024-11-09 14:38:58.042] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:58.043]        1             25          82.8281%        0.0004s    
+fail to open txt!
+At Fault: ==I_601==Y and id is1675 1
+c final reduce number = 8
+c PA 1460 in 1472 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1466 in 1478 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1468 in 1480 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 5
+c PA 587 in 593 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 594 in 600 (undef_ct = 6 )
+SATISFIABLE
+[2024-11-09 14:38:58.392] fault sim start...
+[2024-11-09 14:38:58.392] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:58.392]        1              5          82.9319%        0.0006s    
+fail to open txt!
+At Fault: ==AND2_1770==B and id is1682 1
+c final reduce number = 4
+c PA 1376 in 1398 (undef_ct = 22 )
+SATISFIABLE
+[2024-11-09 14:38:58.584] fault sim start...
+[2024-11-09 14:38:58.584] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:38:58.584]        1              1          82.9527%        0.0005s    
+fail to open txt!
+At Fault: ==NOR2_1671==B and id is1701 1
+c final reduce number = 20
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1373 in 1394 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 180 in 180 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 182 in 182 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 185 in 185 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 185 in 185 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 182 in 182 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 184 in 184 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 187 in 187 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 187 in 187 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 185 in 185 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1401 in 1422 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1426 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1407 in 1428 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 21
+c PA 517 in 539 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 11
+c PA 350 in 362 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 3
+c PA 265 in 269 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 98 in 99 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 100 in 101 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 102 in 103 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 102 in 103 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 100 in 101 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 101 in 102 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 103 in 104 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 505 in 515 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 7
+c PA 486 in 494 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 5
+c PA 458 in 464 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 421 in 425 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 17
+c PA 667 in 685 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 13
+c PA 600 in 614 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 11
+c PA 565 in 577 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 9
+c PA 282 in 292 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 284 in 294 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 284 in 294 (undef_ct = 10 )
+SATISFIABLE
+[2024-11-09 14:39:00.020] fault sim start...
+[2024-11-09 14:39:00.020] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:00.021]        1             124         85.5274%        0.0006s    
+fail to open txt!
+At Fault: ==I_597==Y and id is1759 1
+c final reduce number = 5
+c PA 1446 in 1458 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1452 in 1464 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1454 in 1466 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 226 in 226 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 228 in 228 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 231 in 231 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 231 in 231 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 228 in 228 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 230 in 230 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 233 in 233 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 228 in 228 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 224 in 224 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 9
+c PA 664 in 674 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 97 in 99 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 98 in 100 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 99 in 101 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1863 in 1878 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 12
+c PA 526 in 539 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 532 in 545 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 111 in 112 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 114 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 11
+c PA 271 in 283 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 271 in 283 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:00.521] fault sim start...
+[2024-11-09 14:39:00.521] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:00.521]        1             55          86.6694%        0.0004s    
+fail to open txt!
+At Fault: ==I_488==A and id is1803 0
+c final reduce number = 15
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1370 in 1391 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1372 in 1393 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 17
+c PA 462 in 480 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 466 in 484 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1432 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1411 in 1432 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 12
+c PA 391 in 404 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 6
+c PA 297 in 304 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 301 in 308 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 10
+c PA 359 in 370 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 107 in 108 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 109 in 110 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 108 in 109 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 111 in 112 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 111 in 112 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 110 in 111 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 113 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:00.993] fault sim start...
+[2024-11-09 14:39:00.993] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:00.994]        1             40          87.5000%        0.0004s    
+fail to open txt!
+At Fault: ==U620==A and id is1828 0
+c final reduce number = 21
+c PA 660 in 683 (undef_ct = 23 )
+SATISFIABLE
+[2024-11-09 14:39:01.160] fault sim start...
+[2024-11-09 14:39:01.160] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:01.160]        1              1          87.5208%        0.0005s    
+fail to open txt!
+At Fault: ==I_455==A and id is1853 0
+c final reduce number = 11
+c PA 647 in 668 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 652 in 673 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 12
+c PA 240 in 253 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 1
+c PA 88 in 91 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 79 in 81 (undef_ct = 2 )
+SATISFIABLE
+[2024-11-09 14:39:01.350] fault sim start...
+[2024-11-09 14:39:01.350] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:01.351]        1             12          87.7699%        0.0004s    
+fail to open txt!
+At Fault: ==NOR2_1673==B and id is1860 1
+c final reduce number = 15
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1373 in 1394 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1382 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1375 in 1396 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 182 in 182 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1385 in 1406 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1399 in 1420 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1401 in 1422 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 11
+c PA 491 in 503 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 80 in 81 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 84 in 85 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 80 in 81 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 89 in 90 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 91 in 92 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 84 in 84 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 87 in 87 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:02.363] fault sim start...
+[2024-11-09 14:39:02.363] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:02.364]        1             52          88.8497%        0.0005s    
+fail to open txt!
+At Fault: ==I_579==A and id is1948 0
+|       100 |    1448     5224    11746 |     1928       98      5 |  1.228 % |
+c final reduce number = 4
+c PA 1454 in 1466 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 9
+c PA 644 in 654 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 650 in 660 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:02.731] fault sim start...
+[2024-11-09 14:39:02.731] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:02.731]        1              6          88.9743%        0.0004s    
+fail to open txt!
+At Fault: ==I_573==A and id is1949 0
+c final reduce number = 12
+c PA 1454 in 1466 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 9
+c PA 660 in 670 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 664 in 674 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1460 in 1472 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 442 in 454 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 422 in 433 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 350 in 359 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 274 in 281 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 116 in 116 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:03.037] fault sim start...
+[2024-11-09 14:39:03.037] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:03.038]        1             16          89.3065%        0.0003s    
+fail to open txt!
+At Fault: ==I_492==Y and id is1964 1
+c final reduce number = 20
+c PA 1363 in 1384 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1365 in 1386 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1367 in 1388 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1369 in 1390 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1381 in 1402 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1377 in 1398 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1380 in 1401 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1387 in 1408 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1389 in 1410 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1391 in 1412 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 90 in 90 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:03.882] fault sim start...
+[2024-11-09 14:39:03.882] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:03.882]        1             22          89.7633%        0.0004s    
+fail to open txt!
+At Fault: ==I_398==A and id is1989 0
+c final reduce number = 3
+c PA 1458 in 1479 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1602 in 1623 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1606 in 1627 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 24
+c PA 1406 in 1436 (undef_ct = 30 )
+SATISFIABLE
+c final reduce number = 0
+c PA 224 in 231 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 2
+c PA 154 in 163 (undef_ct = 9 )
+SATISFIABLE
+[2024-11-09 14:39:04.287] fault sim start...
+[2024-11-09 14:39:04.287] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:04.287]        1             21          90.1993%        0.0004s    
+fail to open txt!
+At Fault: ==I_392==Y and id is1991 1
+c final reduce number = 19
+c PA 1437 in 1458 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 19
+c PA 659 in 679 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 334 in 349 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 0
+c PA 203 in 210 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 338 in 353 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 0
+c PA 381 in 398 (undef_ct = 17 )
+SATISFIABLE
+c final reduce number = 0
+c PA 384 in 401 (undef_ct = 17 )
+SATISFIABLE
+c final reduce number = 0
+c PA 381 in 398 (undef_ct = 17 )
+SATISFIABLE
+c final reduce number = 0
+c PA 384 in 401 (undef_ct = 17 )
+SATISFIABLE
+c final reduce number = 0
+c PA 417 in 436 (undef_ct = 19 )
+SATISFIABLE
+c final reduce number = 0
+c PA 438 in 459 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 441 in 462 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:39:04.521] fault sim start...
+[2024-11-09 14:39:04.521] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:04.522]        1             17          90.5523%        0.0004s    
+fail to open txt!
+At Fault: ==U631==A and id is2011 1
+c final reduce number = 19
+c PA 1372 in 1393 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1395 in 1416 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1379 in 1400 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1426 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1407 in 1428 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1405 in 1426 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 9
+c PA 433 in 443 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 433 in 443 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 435 in 445 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 434 in 456 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 414 in 434 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 417 in 437 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 342 in 358 (undef_ct = 16 )
+SATISFIABLE
+[2024-11-09 14:39:05.090] fault sim start...
+[2024-11-09 14:39:05.091] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:05.091]        1             26          91.0922%        0.0004s    
+fail to open txt!
+At Fault: ==U718==Y and id is2052 0
+c final reduce number = 5
+c PA 1683 in 1695 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 11
+c PA 492 in 504 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 5
+c PA 251 in 258 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 6
+c PA 312 in 320 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 315 in 323 (undef_ct = 8 )
+SATISFIABLE
+[2024-11-09 14:39:05.292] fault sim start...
+[2024-11-09 14:39:05.292] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:05.292]        1             12          91.3414%        0.0003s    
+fail to open txt!
+At Fault: ==U721==B and id is2075 0
+|       100 |    1402     5093    11370 |     1880      100      4 |  0.568 % |
+c final reduce number = 2
+c PA 1407 in 1410 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 1
+c PA 506 in 508 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 512 in 514 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 3
+c PA 594 in 598 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 596 in 600 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1425 in 1428 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1427 in 1430 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1430 in 1433 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 603 in 607 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 604 in 608 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 3
+c PA 679 in 683 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 680 in 684 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 1
+c PA 530 in 532 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 530 in 532 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 532 in 534 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 1
+c PA 441 in 443 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 441 in 443 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 441 in 443 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 477 in 479 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 278 in 280 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 301 in 303 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 304 in 306 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 344 in 346 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 306 in 308 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 309 in 311 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 253 in 255 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 127 in 127 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 129 in 129 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 135 in 135 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 137 in 137 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 142 in 143 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 144 in 145 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 137 in 138 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 139 in 140 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:05.802] fault sim start...
+[2024-11-09 14:39:05.802] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:05.802]        1             48          92.3380%        0.0004s    
+fail to open txt!
+At Fault: ==U734==Y and id is2076 0
+|       100 |    1163     4422    10234 |     1643      100      7 |  0.684 % |
+c final reduce number = 14
+c PA 1153 in 1171 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 3
+c PA 1410 in 1413 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1406 in 1409 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1176 in 1185 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1409 in 1412 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1442 in 1445 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1442 in 1445 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 1
+c PA 476 in 478 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 1
+c PA 577 in 579 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 687 in 689 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 2
+c PA 563 in 566 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 1
+c PA 490 in 492 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 495 in 497 (undef_ct = 2 )
+SATISFIABLE
+[2024-11-09 14:39:06.362] fault sim start...
+[2024-11-09 14:39:06.362] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:06.362]        1             35          93.0648%        0.0003s    
+fail to open txt!
+At Fault: ==U639==B and id is2081 0
+c final reduce number = 5
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 4
+c PA 505 in 512 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 11
+c PA 509 in 521 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 516 in 528 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:06.546] fault sim start...
+[2024-11-09 14:39:06.546] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:06.547]        1              8          93.2309%        0.0004s    
+fail to open txt!
+At Fault: ==U696==B and id is2084 0
+c final reduce number = 11
+c PA 1405 in 1417 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 14
+c PA 1228 in 1246 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 7
+c PA 647 in 655 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 11
+c PA 484 in 496 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:06.777] fault sim start...
+[2024-11-09 14:39:06.777] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:06.777]        1              9          93.4178%        0.0004s    
+fail to open txt!
+At Fault: ==U638==A and id is2175 0
+c final reduce number = 9
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 14
+c PA 1239 in 1258 (undef_ct = 19 )
+SATISFIABLE
+c final reduce number = 1
+c PA 196 in 199 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:39:06.986] fault sim start...
+[2024-11-09 14:39:06.986] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:06.987]        1              3          93.4801%        0.0004s    
+fail to open txt!
+At Fault: ==U722==B and id is2180 1
+|       100 |    1390     5037    11255 |     1882      100      7 |  1.698 % |
+c final reduce number = 7
+c PA 1402 in 1414 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1429 in 1441 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 9
+c PA 581 in 591 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 583 in 593 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 5
+c PA 486 in 492 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 488 in 494 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 499 in 505 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 9
+c PA 631 in 641 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 633 in 643 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 643 in 653 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 2
+c PA 319 in 326 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 229 in 233 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 3
+c PA 316 in 319 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 5
+c PA 376 in 381 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 455 in 462 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 726 in 726 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 109 in 109 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 113 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 107 in 107 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:07.323] fault sim start...
+[2024-11-09 14:39:07.323] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:07.324]        1             22          93.9369%        0.0003s    
+fail to open txt!
+At Fault: ==U604==B and id is2234 1
+c final reduce number = 13
+c PA 585 in 600 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 12
+c PA 1397 in 1418 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 340 in 354 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 0
+c PA 383 in 399 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 352 in 361 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 15
+c PA 474 in 489 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 0
+c PA 85 in 86 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 83 in 84 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:07.524] fault sim start...
+[2024-11-09 14:39:07.524] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:07.524]        1             10          94.1445%        0.0004s    
+fail to open txt!
+At Fault: ==U710==Y and id is2253 1
+|       100 |    1217     4625    10748 |     1739      100      8 |  1.697 % |
+c final reduce number = 14
+c PA 1218 in 1238 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 2
+c PA 427 in 429 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 429 in 431 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 8
+c PA 525 in 533 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 527 in 535 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 9
+c PA 726 in 735 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 551 in 569 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 10
+c PA 421 in 431 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 423 in 433 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 6
+c PA 366 in 372 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 370 in 376 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 4
+c PA 338 in 342 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 340 in 344 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 21
+c PA 570 in 592 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 577 in 599 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 394 in 406 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 18
+c PA 1729 in 1747 (undef_ct = 18 )
+SATISFIABLE
+[2024-11-09 14:39:07.884] fault sim start...
+[2024-11-09 14:39:07.884] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:07.885]        1             26          94.6844%        0.0005s    
+fail to open txt!
+At Fault: ==NAND2_1809==B and id is2263 1
+c final reduce number = 12
+c PA 1444 in 1465 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 185 in 185 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 9
+c PA 433 in 443 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 20
+c PA 455 in 476 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 79 in 79 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 81 in 81 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 83 in 83 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 81 in 81 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 86 in 86 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 88 in 88 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 84 in 84 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:08.065] fault sim start...
+[2024-11-09 14:39:08.065] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:08.065]        1             16          95.0166%        0.0004s    
+fail to open txt!
+At Fault: ==U638==B and id is2269 1
+c final reduce number = 12
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:08.233] fault sim start...
+[2024-11-09 14:39:08.233] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:08.234]        1              1          95.0374%        0.0004s    
+fail to open txt!
+At Fault: ==U739==A and id is2373 0
+c final reduce number = 6
+c PA 189 in 198 (undef_ct = 9 )
+SATISFIABLE
+|       100 |    1087     3627     8496 |     2147      100      8 | 33.191 % |
+c final reduce number = 4
+c PA 1615 in 1627 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 230 in 230 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 420 in 432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 386 in 397 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 347 in 357 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 350 in 360 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 2
+c PA 217 in 222 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 314 in 322 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 317 in 325 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 1
+c PA 189 in 192 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 91 in 91 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 104 in 105 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:08.445] fault sim start...
+[2024-11-09 14:39:08.445] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:08.446]        1             18          95.4111%        0.0004s    
+fail to open txt!
+At Fault: ==U733==A and id is2386 0
+|       100 |    1151     4363    10110 |     1644      100      7 |  2.210 % |
+c final reduce number = 16
+c PA 1154 in 1177 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 12
+c PA 498 in 511 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 502 in 515 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 0
+c PA 507 in 520 (undef_ct = 13 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1429 in 1441 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 5
+c PA 509 in 515 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 2
+c PA 238 in 242 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1454 in 1466 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1751 in 1765 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1453 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 20
+c PA 3242 in 3270 (undef_ct = 28 )
+SATISFIABLE
+c final reduce number = 0
+c PA 133 in 133 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 251 in 255 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:09.270] fault sim start...
+[2024-11-09 14:39:09.270] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:09.270]        1             19          95.8056%        0.0004s    
+fail to open txt!
+At Fault: ==U707==B and id is2499 0
+|       100 |    1216     4615    10726 |     1738      100      7 |  2.094 % |
+c final reduce number = 16
+c PA 1220 in 1242 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 11
+c PA 1444 in 1456 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1446 in 1458 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1432 in 1444 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1434 in 1446 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1444 in 1456 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1446 in 1458 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 602 in 611 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1749 in 1764 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 3
+c PA 435 in 439 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 684 in 694 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 6
+c PA 578 in 585 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 115 in 116 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 695 in 705 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 489 in 493 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 622 in 630 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 113 in 113 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 110 in 110 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 111 in 111 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 112 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 112 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 112 in 112 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:09.990] fault sim start...
+[2024-11-09 14:39:09.990] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:09.990]        1             22          96.2625%        0.0004s    
+fail to open txt!
+At Fault: ==U746==A and id is2737 1
+c final reduce number = 2
+c PA 184 in 186 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 6
+c PA 1414 in 1426 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1414 in 1426 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 91 in 91 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 95 in 95 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 100 in 101 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 93 in 94 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 97 in 98 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:10.228] fault sim start...
+[2024-11-09 14:39:10.228] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:10.228]        1             10          96.4701%        0.0003s    
+fail to open txt!
+At Fault: ==U744==A and id is2801 1
+c final reduce number = 1
+c PA 187 in 189 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 3
+c PA 179 in 188 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 251 in 260 (undef_ct = 9 )
+SATISFIABLE
+|       100 |     911     3128     7189 |     2300      100      5 | 46.227 % |
+c final reduce number = 7
+c PA 332 in 341 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 293 in 301 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 1
+c PA 165 in 168 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 168 in 171 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 3
+c PA 409 in 413 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 411 in 415 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 417 in 421 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 0
+c PA 308 in 315 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 1
+c PA 390 in 399 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 255 in 260 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 90 in 90 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 12
+c PA 1692 in 1706 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 0
+c PA 267 in 272 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 0
+c PA 233 in 237 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:10.487] fault sim start...
+[2024-11-09 14:39:10.487] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:10.488]        1             21          96.9061%        0.0003s    
+fail to open txt!
+At Fault: ==U748==B and id is2804 1
+c final reduce number = 1
+c PA 189 in 191 (undef_ct = 2 )
+SATISFIABLE
+|       100 |    1184     4372     9903 |     1958       97      4 | 20.697 % |
+|       100 |    1277     4508    10285 |     2014       99      5 | 17.508 % |
+|       100 |    1448     5239    11862 |     2300      100      6 | 14.523 % |
+c final reduce number = 10
+c PA 496 in 507 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 10
+c PA 467 in 478 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 471 in 482 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 9
+c PA 434 in 444 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 7
+c PA 402 in 410 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 5
+c PA 369 in 375 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 1
+c PA 283 in 285 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 287 in 289 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 0
+c PA 118 in 118 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 114 in 114 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 324 in 328 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 3
+c PA 289 in 300 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 118 in 118 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 134 in 135 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:10.676] fault sim start...
+[2024-11-09 14:39:10.676] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:10.676]        1             16          97.2384%        0.0003s    
+fail to open txt!
+At Fault: ==U712==B and id is3289 1
+fail to open txt!
+At Fault: ==U702==B and id is3290 1
+|       100 |    1397     5164    11617 |     1958       96      4 |  6.179 % |
+fail to open txt!
+At Fault: ==AND2_1097==A and id is3291 1
+fail to open txt!
+At Fault: ==AND2_1112==A and id is3294 1
+|       100 |    1491     5300    11999 |     2014      100      6 |  3.433 % |
+fail to open txt!
+At Fault: ==AND2_1045==A and id is3295 1
+fail to open txt!
+At Fault: ==U860==A and id is3446 1
+|       100 |    1401     5042    11273 |     1870      100      5 |  1.060 % |
+c final reduce number = 9
+c PA 1404 in 1416 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1420 in 1432 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 5
+c PA 241 in 248 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 246 in 253 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 6
+c PA 313 in 321 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 1
+c PA 182 in 185 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 5
+c PA 510 in 516 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 510 in 516 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1441 in 1453 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 189 in 192 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1452 in 1464 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 98 in 98 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 483 in 493 (undef_ct = 10 )
+SATISFIABLE
+[2024-11-09 14:39:11.122] fault sim start...
+[2024-11-09 14:39:11.122] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:11.122]        1             13          97.5083%        0.0003s    
+fail to open txt!
+At Fault: ==OR2_652==A and id is3464 0
+c final reduce number = 11
+c PA 1672 in 1688 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1674 in 1690 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1678 in 1694 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1431 in 1443 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 494 in 501 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 14
+c PA 1726 in 1742 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 136 in 138 (undef_ct = 2 )
+SATISFIABLE
+c final reduce number = 17
+c PA 2675 in 2694 (undef_ct = 19 )
+SATISFIABLE
+c final reduce number = 25
+c PA 3250 in 3275 (undef_ct = 25 )
+SATISFIABLE
+c final reduce number = 1
+c PA 303 in 304 (undef_ct = 1 )
+SATISFIABLE
+c final reduce number = 0
+c PA 129 in 129 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 11
+c PA 4775 in 4797 (undef_ct = 22 )
+SATISFIABLE
+c final reduce number = 0
+c PA 153 in 153 (undef_ct = 0 )
+SATISFIABLE
+[2024-11-09 14:39:12.920] fault sim start...
+[2024-11-09 14:39:12.920] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:12.921]        1             13          97.7782%        0.0005s    
+fail to open txt!
+At Fault: ==AND2_449==Y and id is3548 1
+c final reduce number = 8
+c PA 1398 in 1410 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1398 in 1410 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1400 in 1412 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 10
+c PA 620 in 631 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 620 in 631 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 622 in 633 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1410 in 1422 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1414 in 1426 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 512 in 519 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 355 in 364 (undef_ct = 9 )
+SATISFIABLE
+c final reduce number = 0
+c PA 637 in 647 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 476 in 486 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 116 in 116 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1361 in 1371 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 118 in 118 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 7
+c PA 279 in 289 (undef_ct = 10 )
+SATISFIABLE
+c final reduce number = 0
+c PA 115 in 115 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 123 in 123 (undef_ct = 0 )
+SATISFIABLE
+c final reduce number = 0
+c PA 130 in 131 (undef_ct = 1 )
+SATISFIABLE
+[2024-11-09 14:39:13.597] fault sim start...
+[2024-11-09 14:39:13.598] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:13.598]        1             21          98.2143%        0.0003s    
+fail to open txt!
+At Fault: ==U237==B and id is3649 1
+c final reduce number = 19
+c PA 482 in 502 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 0
+c PA 486 in 506 (undef_ct = 20 )
+SATISFIABLE
+c final reduce number = 17
+c PA 457 in 475 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 459 in 477 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 2
+c PA 255 in 258 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 257 in 260 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 22
+c PA 3820 in 3843 (undef_ct = 23 )
+SATISFIABLE
+c final reduce number = 0
+c PA 3824 in 3845 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 309 in 317 (undef_ct = 8 )
+SATISFIABLE
+[2024-11-09 14:39:14.650] fault sim start...
+[2024-11-09 14:39:14.650] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:14.650]        1              9          98.4012%        0.0003s    
+fail to open txt!
+At Fault: ==U870==A and id is3842 1
+|       100 |    1421     5124    11485 |     1894      100      6 |  0.907 % |
+c final reduce number = 9
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1438 in 1450 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 510 in 518 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 0
+c PA 511 in 519 (undef_ct = 8 )
+SATISFIABLE
+c final reduce number = 4
+c PA 455 in 460 (undef_ct = 5 )
+SATISFIABLE
+c final reduce number = 1
+c PA 213 in 216 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 23
+c PA 3029 in 3053 (undef_ct = 24 )
+SATISFIABLE
+[2024-11-09 14:39:15.231] fault sim start...
+[2024-11-09 14:39:15.231] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:15.231]        1              7          98.5465%        0.0003s    
+fail to open txt!
+At Fault: ==U796==B and id is3900 0
+fail to open txt!
+At Fault: ==U794==A and id is3901 0
+fail to open txt!
+At Fault: ==U935==A and id is3960 1
+c final reduce number = 8
+c PA 1412 in 1424 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 2
+c PA 424 in 427 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:39:15.394] fault sim start...
+[2024-11-09 14:39:15.394] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:15.394]        1              2          98.5880%        0.0002s    
+fail to open txt!
+At Fault: ==U935==B and id is3961 1
+c final reduce number = 5
+c PA 1412 in 1424 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 2
+c PA 412 in 415 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 412 in 415 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1408 in 1420 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:15.808] fault sim start...
+[2024-11-09 14:39:15.808] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:15.809]        1              7          98.7334%        0.0002s    
+fail to open txt!
+At Fault: ==U920==B and id is3964 1
+|       100 |    1406     5064    11326 |     1873      100      5 |  0.776 % |
+c final reduce number = 7
+c PA 1405 in 1417 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 512 in 519 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1432 in 1444 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 13
+c PA 1764 in 1779 (undef_ct = 15 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1452 in 1464 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:16.194] fault sim start...
+[2024-11-09 14:39:16.194] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:16.195]        1              5          98.8372%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_538==Y and id is4033 0
+c final reduce number = 3
+c PA 1429 in 1432 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1429 in 1432 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 3
+c PA 495 in 499 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:16.398] fault sim start...
+[2024-11-09 14:39:16.398] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:16.398]        1              3          98.8995%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_537==B and id is4035 0
+c final reduce number = 7
+c PA 1423 in 1435 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 4
+c PA 447 in 454 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1661 in 1677 (undef_ct = 16 )
+SATISFIABLE
+c final reduce number = 0
+c PA 249 in 256 (undef_ct = 7 )
+SATISFIABLE
+[2024-11-09 14:39:16.620] fault sim start...
+[2024-11-09 14:39:16.620] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:16.620]        1              4          98.9826%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_536==A and id is4036 0
+c final reduce number = 1
+c PA 1444 in 1447 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 3
+c PA 494 in 498 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:16.753] fault sim start...
+[2024-11-09 14:39:16.753] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:16.753]        1              2          99.0241%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_530==B and id is4039 0
+|       100 |    1405     5127    11496 |     1898       99      5 |  2.227 % |
+c final reduce number = 3
+c PA 1433 in 1437 (undef_ct = 4 )
+SATISFIABLE
+c final reduce number = 1
+c PA 557 in 560 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 2
+c PA 464 in 467 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:39:16.892] fault sim start...
+[2024-11-09 14:39:16.892] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:16.892]        1              3          99.0864%        0.0002s    
+fail to open txt!
+At Fault: ==U809==B and id is4201 1
+c final reduce number = 21
+c PA 1392 in 1413 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1396 in 1417 (undef_ct = 21 )
+SATISFIABLE
+c final reduce number = 6
+c PA 405 in 413 (undef_ct = 8 )
+SATISFIABLE
+[2024-11-09 14:39:17.076] fault sim start...
+[2024-11-09 14:39:17.076] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:17.076]        1              3          99.1487%        0.0002s    
+fail to open txt!
+At Fault: ==U859==A and id is4221 1
+c final reduce number = 10
+c PA 1425 in 1437 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:17.195] fault sim start...
+[2024-11-09 14:39:17.195] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:17.195]        1              1          99.1694%        0.0002s    
+fail to open txt!
+At Fault: ==U64==B and id is4251 1
+c final reduce number = 7
+c PA 1379 in 1391 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1384 in 1396 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1390 in 1402 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:17.428] fault sim start...
+[2024-11-09 14:39:17.428] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:17.428]        1              3          99.2317%        0.0002s    
+fail to open txt!
+At Fault: ==U816==A and id is4260 0
+|       100 |    1784     6767    15178 |     2503      100      5 |  0.834 % |
+c final reduce number = 6
+c PA 1792 in 1799 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1789 in 1796 (undef_ct = 7 )
+SATISFIABLE
+[2024-11-09 14:39:17.697] fault sim start...
+[2024-11-09 14:39:17.697] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:17.698]        1              2          99.2733%        0.0002s    
+fail to open txt!
+At Fault: ==U912==A and id is4262 0
+c final reduce number = 5
+c PA 1422 in 1434 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+c final reduce number = 6
+c PA 477 in 484 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 479 in 486 (undef_ct = 7 )
+SATISFIABLE
+[2024-11-09 14:39:17.941] fault sim start...
+[2024-11-09 14:39:17.941] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:17.942]        1              5          99.3771%        0.0003s    
+fail to open txt!
+At Fault: ==U942==A and id is4274 0
+|       100 |    1418     5106    11441 |     1894      100      6 |  1.116 % |
+c final reduce number = 0
+c PA 1431 in 1434 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 5
+c PA 1723 in 1730 (undef_ct = 7 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1433 in 1436 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1433 in 1436 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 0
+c PA 1444 in 1447 (undef_ct = 3 )
+SATISFIABLE
+[2024-11-09 14:39:18.330] fault sim start...
+[2024-11-09 14:39:18.330] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.331]        1              5          99.4809%        0.0002s    
+fail to open txt!
+At Fault: ==U948==B and id is4276 1
+c final reduce number = 11
+c PA 424 in 435 (undef_ct = 11 )
+SATISFIABLE
+c final reduce number = 8
+c PA 621 in 639 (undef_ct = 18 )
+SATISFIABLE
+c final reduce number = 0
+c PA 614 in 632 (undef_ct = 18 )
+SATISFIABLE
+[2024-11-09 14:39:18.385] fault sim start...
+[2024-11-09 14:39:18.385] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.385]        1              3          99.5432%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_449==A and id is4419 0
+c final reduce number = 11
+c PA 1416 in 1428 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:18.471] fault sim start...
+[2024-11-09 14:39:18.471] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.471]        1              1          99.5640%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_522==A and id is4495 1
+c final reduce number = 2
+c PA 389 in 395 (undef_ct = 6 )
+SATISFIABLE
+c final reduce number = 16
+c PA 1616 in 1634 (undef_ct = 18 )
+SATISFIABLE
+[2024-11-09 14:39:18.576] fault sim start...
+[2024-11-09 14:39:18.576] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.576]        1              2          99.6055%        0.0002s    
+fail to open txt!
+At Fault: ==U887==B and id is4529 1
+c final reduce number = 13
+c PA 490 in 504 (undef_ct = 14 )
+SATISFIABLE
+c final reduce number = 16
+c PA 1419 in 1440 (undef_ct = 21 )
+SATISFIABLE
+[2024-11-09 14:39:18.665] fault sim start...
+[2024-11-09 14:39:18.665] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.665]        1              2          99.6470%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_449==B and id is4635 1
+c final reduce number = 8
+c PA 1403 in 1415 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:18.744] fault sim start...
+[2024-11-09 14:39:18.744] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.744]        1              1          99.6678%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_515==A and id is4654 1
+|       100 |    1697     6310    14169 |     2354      100      4 |  1.964 % |
+c final reduce number = 7
+c PA 1724 in 1731 (undef_ct = 7 )
+SATISFIABLE
+[2024-11-09 14:39:18.859] fault sim start...
+[2024-11-09 14:39:18.859] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.860]        1              1          99.6885%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_538==A and id is4655 1
+|       100 |    1415     5104    11440 |     1909      100      5 |  2.347 % |
+c final reduce number = 2
+c PA 1446 in 1449 (undef_ct = 3 )
+SATISFIABLE
+c final reduce number = 2
+c PA 423 in 427 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:18.942] fault sim start...
+[2024-11-09 14:39:18.942] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:18.942]        1              2          99.7301%        0.0001s    
+fail to open txt!
+At Fault: ==AND2_383==B and id is4663 1
+|       100 |    1422     5124    11486 |     1897      100      4 |  0.907 % |
+c final reduce number = 12
+c PA 1423 in 1435 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:19.016] fault sim start...
+[2024-11-09 14:39:19.016] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.017]        1              1          99.7508%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_415==B and id is4681 1
+|       100 |    1423     5129    11497 |     1898      100      5 |  0.913 % |
+c final reduce number = 4
+c PA 1424 in 1436 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:19.089] fault sim start...
+[2024-11-09 14:39:19.089] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.090]        1              1          99.7716%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_894==A and id is4691 1
+|       100 |    1691     6125    14113 |     2286      100     11 |  1.229 % |
+|       250 |    1691     6125    14113 |     2515      250     10 |  1.229 % |
+c final reduce number = 3
+c PA 1708 in 1712 (undef_ct = 4 )
+SATISFIABLE
+[2024-11-09 14:39:19.183] fault sim start...
+[2024-11-09 14:39:19.183] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.183]        1              1          99.7924%        0.0002s    
+fail to open txt!
+At Fault: ==AND2_913==A and id is4709 1
+|       100 |    1671     6043    13911 |     2257      100     14 |  1.360 % |
+|       250 |    1671     6043    13911 |     2483      250     10 |  1.358 % |
+c final reduce number = 9
+c PA 1682 in 1694 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:19.274] fault sim start...
+[2024-11-09 14:39:19.274] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.274]        1              1          99.8131%        0.0002s    
+fail to open txt!
+At Fault: ==U61==B and id is4715 1
+c final reduce number = 4
+c PA 1380 in 1392 (undef_ct = 12 )
+SATISFIABLE
+[2024-11-09 14:39:19.335] fault sim start...
+[2024-11-09 14:39:19.335] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.336]        1              1          99.8339%        0.0002s    
+fail to open txt!
+At Fault: ==U39==A and id is4732 1
+c final reduce number = 9
+c PA 656 in 665 (undef_ct = 9 )
+SATISFIABLE
+[2024-11-09 14:39:19.349] fault sim start...
+[2024-11-09 14:39:19.349] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.349]        1              1          99.8547%        0.0002s    
+fail to open txt!
+time for each fault is: 2.30269
+1.77745
+0.628809
+0.517264
+0.344012
+2.13997
+1.0119
+0.633879
+1.7741
+1.74282
+1.84894
+0.558288
+0.583724
+1.00637
+0.293746
+1.04399
+0.281708
+0.278499
+0.586191
+0.293529
+0.281027
+0.328258
+0.325873
+0.686726
+0.316888
+0.437788
+0.256009
+0.206125
+0.328644
+0.712374
+1.20616
+0.272274
+0.257348
+0.322742
+0.312865
+0.327656
+0.389608
+0.251492
+0.308955
+0.361331
+0.303528
+0.155449
+0.934247
+0.208345
+0.51488
+0.18986
+0.27584
+0.451316
+0.998529
+0.593244
+0.204266
+0.741605
+0.44367
+0.327187
+0.693401
+0.470594
+0.489458
+0.173726
+0.313598
+0.629875
+0.451262
+0.336739
+0.227778
+0.465644
+0.242227
+0.802294
+0.20939
+1.00422
+0.378148
+0.349588
+0.192108
+1.43638
+0.500406
+0.472585
+0.166339
+0.190859
+1.01269
+0.367539
+0.306635
+0.844262
+0.404981
+0.234805
+0.569064
+0.201025
+0.510179
+0.559743
+0.18496
+0.230484
+0.209329
+0.336866
+0.200437
+0.360728
+0.180585
+0.168191
+0.212296
+0.824568
+0.719904
+0.237544
+0.259808
+0.188263
+0.00164284
+0.00317109
+0.00165058
+0.00401982
+0.000282111
+0.435075
+1.79915
+0.676786
+1.05267
+0.580755
+0.000204468
+0.000173373
+0.162717
+0.41431
+0.386035
+0.203149
+0.222433
+0.132572
+0.139204
+0.183734
+0.119467
+0.233024
+0.269248
+0.244123
+0.388837
+0.0541638
+0.0865979
+0.10488
+0.0887697
+0.0793367
+0.115229
+0.0827557
+0.0743669
+0.072915
+0.0934715
+0.0911283
+0.0612815
+0.013934
+Detected Faults: 4809
+No Test Faults: 7
+Abort Faults: 0
+Pattern generated: 131
+Fault Coverage: 99.8547%
+Test Coverage: 100%
+Test time: 62.0758s.
+CNF generation time: 0.0295898s.
+CNF transformation time: 0.150294s.
+Solver time: 0.132291s.
+Sim time: 0.0959535s.
+
+----------Validate test patterns-----------
+[2024-11-09 14:39:19.357] fault sim start...
+[2024-11-09 14:39:19.357] total_pat_nums    detected       coverage       cost time   
+[2024-11-09 14:39:19.360]        1             595         12.3547%        0.0031s    
+[2024-11-09 14:39:19.361]        2             117         14.7841%        0.0011s    
+[2024-11-09 14:39:19.362]        3             227         19.4975%        0.0013s    
+[2024-11-09 14:39:19.363]        4             230         24.2733%        0.0010s    
+[2024-11-09 14:39:19.364]        5             27          24.8339%        0.0013s    
+[2024-11-09 14:39:19.366]        6             213         29.2566%        0.0013s    
+[2024-11-09 14:39:19.367]        7             81          30.9385%        0.0011s    
+[2024-11-09 14:39:19.368]        8             55          32.0806%        0.0009s    
+[2024-11-09 14:39:19.369]        9             123         34.6346%        0.0011s    
+[2024-11-09 14:39:19.370]       10             102         36.7525%        0.0010s    
+[2024-11-09 14:39:19.371]       11             134         39.5349%        0.0010s    
+[2024-11-09 14:39:19.371]       12             29          40.1370%        0.0008s    
+[2024-11-09 14:39:19.372]       13             10          40.3447%        0.0007s    
+[2024-11-09 14:39:19.373]       14             48          41.3414%        0.0008s    
+[2024-11-09 14:39:19.374]       15             17          41.6944%        0.0007s    
+[2024-11-09 14:39:19.375]       16             53          42.7949%        0.0008s    
+[2024-11-09 14:39:19.375]       17             78          44.4145%        0.0009s    
+[2024-11-09 14:39:19.376]       18             20          44.8297%        0.0007s    
+[2024-11-09 14:39:19.377]       19             44          45.7434%        0.0009s    
+[2024-11-09 14:39:19.378]       20             45          46.6777%        0.0007s    
+[2024-11-09 14:39:19.379]       21             22          47.1346%        0.0007s    
+[2024-11-09 14:39:19.379]       22             10          47.3422%        0.0007s    
+[2024-11-09 14:39:19.380]       23             30          47.9651%        0.0007s    
+[2024-11-09 14:39:19.381]       24             42          48.8372%        0.0007s    
+[2024-11-09 14:39:19.381]       25             11          49.0656%        0.0006s    
+[2024-11-09 14:39:19.382]       26             12          49.3148%        0.0007s    
+[2024-11-09 14:39:19.383]       27             28          49.8962%        0.0008s    
+[2024-11-09 14:39:19.384]       28             62          51.1836%        0.0008s    
+[2024-11-09 14:39:19.384]       29             227         55.8970%        0.0009s    
+[2024-11-09 14:39:19.385]       30             108         58.1395%        0.0006s    
+[2024-11-09 14:39:19.386]       31             126         60.7558%        0.0009s    
+[2024-11-09 14:39:19.386]       32             91          62.6453%        0.0005s    
+[2024-11-09 14:39:19.387]       33             10          62.8530%        0.0005s    
+[2024-11-09 14:39:19.388]       34              9          63.0399%        0.0005s    
+[2024-11-09 14:39:19.388]       35              9          63.2267%        0.0004s    
+[2024-11-09 14:39:19.389]       36             55          64.3688%        0.0006s    
+[2024-11-09 14:39:19.389]       37             21          64.8048%        0.0005s    
+[2024-11-09 14:39:19.390]       38              4          64.8879%        0.0005s    
+[2024-11-09 14:39:19.390]       39             12          65.1370%        0.0005s    
+[2024-11-09 14:39:19.391]       40             18          65.5108%        0.0005s    
+[2024-11-09 14:39:19.391]       41             14          65.8015%        0.0005s    
+[2024-11-09 14:39:19.392]       42             28          66.3829%        0.0005s    
+[2024-11-09 14:39:19.392]       43             46          67.3380%        0.0006s    
+[2024-11-09 14:39:19.393]       44             13          67.6080%        0.0005s    
+[2024-11-09 14:39:19.393]       45             10          67.8156%        0.0004s    
+[2024-11-09 14:39:19.393]       46             16          68.1478%        0.0004s    
+[2024-11-09 14:39:19.394]       47             19          68.5424%        0.0005s    
+[2024-11-09 14:39:19.394]       48             10          68.7500%        0.0004s    
+[2024-11-09 14:39:19.395]       49             218         73.2766%        0.0006s    
+[2024-11-09 14:39:19.395]       50              8          73.4427%        0.0004s    
+[2024-11-09 14:39:19.396]       51              3          73.5050%        0.0004s    
+[2024-11-09 14:39:19.396]       52             23          73.9826%        0.0004s    
+[2024-11-09 14:39:19.397]       53              6          74.1071%        0.0004s    
+[2024-11-09 14:39:19.397]       54              5          74.2110%        0.0004s    
+[2024-11-09 14:39:19.397]       55             86          75.9967%        0.0006s    
+[2024-11-09 14:39:19.398]       56             15          76.3081%        0.0004s    
+[2024-11-09 14:39:19.398]       57             43          77.2010%        0.0004s    
+[2024-11-09 14:39:19.399]       58             10          77.4086%        0.0004s    
+[2024-11-09 14:39:19.399]       59             45          78.3430%        0.0004s    
+[2024-11-09 14:39:19.400]       60             33          79.0282%        0.0004s    
+[2024-11-09 14:39:19.400]       61             30          79.6512%        0.0004s    
+[2024-11-09 14:39:19.400]       62              5          79.7550%        0.0003s    
+[2024-11-09 14:39:19.401]       63              6          79.8796%        0.0004s    
+[2024-11-09 14:39:19.401]       64              6          80.0042%        0.0003s    
+[2024-11-09 14:39:19.401]       65             11          80.2326%        0.0003s    
+[2024-11-09 14:39:19.402]       66             45          81.1669%        0.0004s    
+[2024-11-09 14:39:19.402]       67              4          81.2500%        0.0002s    
+[2024-11-09 14:39:19.402]       68             51          82.3090%        0.0004s    
+[2024-11-09 14:39:19.403]       69             25          82.8281%        0.0002s    
+[2024-11-09 14:39:19.403]       70              5          82.9319%        0.0004s    
+[2024-11-09 14:39:19.403]       71              1          82.9527%        0.0003s    
+[2024-11-09 14:39:19.404]       72             124         85.5274%        0.0004s    
+[2024-11-09 14:39:19.404]       73             55          86.6694%        0.0002s    
+[2024-11-09 14:39:19.404]       74             40          87.5000%        0.0003s    
+[2024-11-09 14:39:19.405]       75              1          87.5208%        0.0003s    
+[2024-11-09 14:39:19.405]       76             12          87.7699%        0.0003s    
+[2024-11-09 14:39:19.405]       77             52          88.8497%        0.0004s    
+[2024-11-09 14:39:19.406]       78              6          88.9743%        0.0003s    
+[2024-11-09 14:39:19.406]       79             16          89.3065%        0.0002s    
+[2024-11-09 14:39:19.406]       80             22          89.7633%        0.0002s    
+[2024-11-09 14:39:19.406]       81             21          90.1993%        0.0003s    
+[2024-11-09 14:39:19.406]       82             17          90.5523%        0.0003s    
+[2024-11-09 14:39:19.407]       83             26          91.0922%        0.0003s    
+[2024-11-09 14:39:19.407]       84             12          91.3414%        0.0002s    
+[2024-11-09 14:39:19.407]       85             48          92.3380%        0.0002s    
+[2024-11-09 14:39:19.407]       86             35          93.0648%        0.0002s    
+[2024-11-09 14:39:19.408]       87              8          93.2309%        0.0003s    
+[2024-11-09 14:39:19.408]       88              9          93.4178%        0.0002s    
+[2024-11-09 14:39:19.408]       89              3          93.4801%        0.0002s    
+[2024-11-09 14:39:19.408]       90             22          93.9369%        0.0002s    
+[2024-11-09 14:39:19.409]       91             10          94.1445%        0.0003s    
+[2024-11-09 14:39:19.409]       92             26          94.6844%        0.0003s    
+[2024-11-09 14:39:19.409]       93             16          95.0166%        0.0002s    
+[2024-11-09 14:39:19.409]       94              1          95.0374%        0.0003s    
+[2024-11-09 14:39:19.410]       95             18          95.4111%        0.0003s    
+[2024-11-09 14:39:19.410]       96             19          95.8056%        0.0002s    
+[2024-11-09 14:39:19.410]       97             22          96.2625%        0.0003s    
+[2024-11-09 14:39:19.410]       98             10          96.4701%        0.0002s    
+[2024-11-09 14:39:19.410]       99             21          96.9061%        0.0002s    
+[2024-11-09 14:39:19.411]       100            16          97.2384%        0.0001s    
+[2024-11-09 14:39:19.411]       101            13          97.5083%        0.0002s    
+[2024-11-09 14:39:19.411]       102            13          97.7782%        0.0002s    
+[2024-11-09 14:39:19.411]       103            21          98.2143%        0.0001s    
+[2024-11-09 14:39:19.411]       104             9          98.4012%        0.0001s    
+[2024-11-09 14:39:19.411]       105             7          98.5465%        0.0001s    
+[2024-11-09 14:39:19.411]       106             2          98.5880%        0.0001s    
+[2024-11-09 14:39:19.412]       107             7          98.7334%        0.0001s    
+[2024-11-09 14:39:19.412]       108             5          98.8372%        0.0001s    
+[2024-11-09 14:39:19.412]       109             3          98.8995%        0.0001s    
+[2024-11-09 14:39:19.412]       110             4          98.9826%        0.0001s    
+[2024-11-09 14:39:19.412]       111             2          99.0241%        0.0001s    
+[2024-11-09 14:39:19.412]       112             3          99.0864%        0.0001s    
+[2024-11-09 14:39:19.412]       113             3          99.1487%        0.0001s    
+[2024-11-09 14:39:19.412]       114             1          99.1694%        0.0001s    
+[2024-11-09 14:39:19.412]       115             3          99.2317%        0.0001s    
+[2024-11-09 14:39:19.412]       116             2          99.2733%        0.0001s    
+[2024-11-09 14:39:19.412]       117             5          99.3771%        0.0001s    
+[2024-11-09 14:39:19.413]       118             5          99.4809%        0.0001s    
+[2024-11-09 14:39:19.413]       119             3          99.5432%        0.0001s    
+[2024-11-09 14:39:19.413]       120             1          99.5640%        0.0001s    
+[2024-11-09 14:39:19.413]       121             2          99.6055%        0.0001s    
+[2024-11-09 14:39:19.413]       122             2          99.6470%        0.0001s    
+[2024-11-09 14:39:19.413]       123             1          99.6678%        0.0001s    
+[2024-11-09 14:39:19.413]       124             1          99.6885%        0.0001s    
+[2024-11-09 14:39:19.413]       125             2          99.7301%        0.0001s    
+[2024-11-09 14:39:19.413]       126             1          99.7508%        0.0001s    
+[2024-11-09 14:39:19.413]       127             1          99.7716%        0.0001s    
+[2024-11-09 14:39:19.414]       128             1          99.7924%        0.0001s    
+[2024-11-09 14:39:19.414]       129             1          99.8131%        0.0001s    
+[2024-11-09 14:39:19.414]       130             1          99.8339%        0.0001s    
+[2024-11-09 14:39:19.414]       131             1          99.8547%        0.0001s    
+
+----------Check X bit in test patterns-----------
+pat 0: add_x: 61; total: 64
+pat 1: add_x: 60; total: 64
+pat 2: add_x: 41; total: 64
+pat 3: add_x: 62; total: 66
+pat 4: add_x: 62; total: 67
+pat 5: add_x: 30; total: 55
+pat 6: add_x: 30; total: 55
+pat 7: add_x: 37; total: 55
+pat 8: add_x: 33; total: 55
+pat 9: add_x: 37; total: 55
+pat 10: add_x: 52; total: 74
+pat 11: add_x: 47; total: 66
+pat 12: add_x: 32; total: 54
+pat 13: add_x: 42; total: 60
+pat 14: add_x: 45; total: 63
+pat 15: add_x: 43; total: 65
+pat 16: add_x: 44; total: 66
+pat 17: add_x: 49; total: 68
+pat 18: add_x: 53; total: 72
+pat 19: add_x: 49; total: 71
+pat 20: add_x: 50; total: 72
+pat 21: add_x: 37; total: 55
+pat 22: add_x: 43; total: 61
+pat 23: add_x: 32; total: 54
+pat 24: add_x: 33; total: 55
+pat 25: add_x: 45; total: 64
+pat 26: add_x: 43; total: 61
+pat 27: add_x: 53; total: 75
+pat 28: add_x: 56; total: 74
+pat 29: add_x: 45; total: 67
+pat 30: add_x: 53; total: 72
+pat 31: add_x: 61; total: 83
+pat 32: add_x: 40; total: 62
+pat 33: add_x: 33; total: 55
+pat 34: add_x: 33; total: 55
+pat 35: add_x: 63; total: 82
+pat 36: add_x: 52; total: 74
+pat 37: add_x: 37; total: 55
+pat 38: add_x: 37; total: 55
+pat 39: add_x: 33; total: 55
+pat 40: add_x: 32; total: 54
+pat 41: add_x: 71; total: 77
+pat 42: add_x: 61; total: 80
+pat 43: add_x: 54; total: 73
+pat 44: add_x: 42; total: 64
+pat 45: add_x: 42; total: 64
+pat 46: add_x: 38; total: 60
+pat 47: add_x: 41; total: 63
+pat 48: add_x: 61; total: 81
+pat 49: add_x: 37; total: 55
+pat 50: add_x: 45; total: 64
+pat 51: add_x: 54; total: 73
+pat 52: add_x: 46; total: 65
+pat 53: add_x: 45; total: 64
+pat 54: add_x: 53; total: 70
+pat 55: add_x: 44; total: 59
+pat 56: add_x: 52; total: 65
+pat 57: add_x: 45; total: 54
+pat 58: add_x: 61; total: 76
+pat 59: add_x: 38; total: 60
+pat 60: add_x: 77; total: 88
+pat 61: add_x: 33; total: 55
+pat 62: add_x: 46; total: 60
+pat 63: add_x: 45; total: 64
+pat 64: add_x: 56; total: 78
+pat 65: add_x: 35; total: 55
+pat 66: add_x: 42; total: 64
+pat 67: add_x: 73; total: 92
+pat 68: add_x: 91; total: 107
+pat 69: add_x: 54; total: 73
+pat 70: add_x: 36; total: 54
+pat 71: add_x: 85; total: 106
+pat 72: add_x: 69; total: 91
+pat 73: add_x: 69; total: 84
+pat 74: add_x: 39; total: 52
+pat 75: add_x: 51; total: 64
+pat 76: add_x: 49; total: 69
+pat 77: add_x: 54; total: 73
+pat 78: add_x: 65; total: 87
+pat 79: add_x: 41; total: 61
+pat 80: add_x: 71; total: 89
+pat 81: add_x: 54; total: 72
+pat 82: add_x: 45; total: 69
+pat 83: add_x: 58; total: 80
+pat 84: add_x: 103; total: 120
+pat 85: add_x: 99; total: 114
+pat 86: add_x: 61; total: 80
+pat 87: add_x: 82; total: 101
+pat 88: add_x: 73; total: 92
+pat 89: add_x: 76; total: 98
+pat 90: add_x: 62; total: 74
+pat 91: add_x: 113; total: 128
+pat 92: add_x: 53; total: 75
+pat 93: add_x: 45; total: 64
+pat 94: add_x: 75; total: 86
+pat 95: add_x: 92; total: 111
+pat 96: add_x: 89; total: 105
+pat 97: add_x: 54; total: 74
+pat 98: add_x: 68; total: 90
+pat 99: add_x: 89; total: 111
+pat 100: add_x: 70; total: 93
+pat 101: add_x: 133; total: 138
+pat 102: add_x: 79; total: 103
+pat 103: add_x: 128; total: 131
+pat 104: add_x: 90; total: 109
+pat 105: add_x: 53; total: 74
+pat 106: add_x: 50; total: 74
+pat 107: add_x: 61; total: 82
+pat 108: add_x: 63; total: 81
+pat 109: add_x: 53; total: 72
+pat 110: add_x: 65; total: 81
+pat 111: add_x: 62; total: 86
+pat 112: add_x: 47; total: 63
+pat 113: add_x: 40; total: 64
+pat 114: add_x: 42; total: 64
+pat 115: add_x: 63; total: 81
+pat 116: add_x: 52; total: 73
+pat 117: add_x: 60; total: 81
+pat 118: add_x: 56; total: 61
+pat 119: add_x: 47; total: 64
+pat 120: add_x: 50; total: 68
+pat 121: add_x: 58; total: 63
+pat 122: add_x: 43; total: 64
+pat 123: add_x: 76; total: 81
+pat 124: add_x: 63; total: 81
+pat 125: add_x: 45; total: 64
+pat 126: add_x: 48; total: 64
+pat 127: add_x: 50; total: 72
+pat 128: add_x: 45; total: 64
+pat 129: add_x: 42; total: 64
+pat 130: add_x: 24; total: 27
+[2024-11-09 14:39:19.518] [info] [TestSATATPG_ND_backtrack.cpp:151] # end test 
+[       OK ] TestATPG.TestFault (62280 ms)
+[----------] 1 test from TestATPG (62280 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62280 ms total)
+[  PASSED  ] 1 test.

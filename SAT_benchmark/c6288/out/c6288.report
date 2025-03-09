@@ -1,0 +1,323 @@
+Start test all ATPG
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestATPG
+[ RUN      ] TestATPG.TestFault
+[2024-04-04 15:11:04.946] [info] [TestATPG.cpp:51] # start SAF ATPG test 
+[2024-04-04 15:11:05.090] ATPG Start ...
+[2024-04-04 15:11:05.090] total_pat_nums    detected       coverage    
+Try number: 257
+Failure number: 101
+Success rate: 0.607004
+Fill rate: 1
+Try number: 263
+Failure number: 101
+Success rate: 0.61597
+Fill rate: 1
+Try number: 251
+Failure number: 101
+Success rate: 0.59761
+Fill rate: 1
+Try number: 246
+Failure number: 101
+Success rate: 0.589431
+Fill rate: 1
+Try number: 293
+Failure number: 101
+Success rate: 0.65529
+Fill rate: 1
+Try number: 251
+Failure number: 101
+Success rate: 0.59761
+Fill rate: 1
+Try number: 270
+Failure number: 101
+Success rate: 0.625926
+Fill rate: 1
+Try number: 270
+Failure number: 101
+Success rate: 0.625926
+Fill rate: 1
+Try number: 262
+Failure number: 101
+Success rate: 0.614504
+Fill rate: 1
+Try number: 241
+Failure number: 101
+Success rate: 0.580913
+Fill rate: 1
+Try number: 251
+Failure number: 101
+Success rate: 0.59761
+Fill rate: 1
+Try number: 276
+Failure number: 101
+Success rate: 0.634058
+Fill rate: 1
+Try number: 286
+Failure number: 101
+Success rate: 0.646853
+Fill rate: 1
+Try number: 250
+Failure number: 101
+Success rate: 0.596
+Fill rate: 1
+Try number: 248
+Failure number: 101
+Success rate: 0.592742
+Fill rate: 1
+Try number: 316
+Failure number: 101
+Success rate: 0.68038
+Fill rate: 1
+Try number: 264
+Failure number: 101
+Success rate: 0.617424
+Fill rate: 1
+Try number: 231
+Failure number: 101
+Success rate: 0.562771
+Fill rate: 1
+Try number: 245
+Failure number: 101
+Success rate: 0.587755
+Fill rate: 1
+Try number: 242
+Failure number: 101
+Success rate: 0.582645
+Fill rate: 1
+Try number: 266
+Failure number: 101
+Success rate: 0.620301
+Fill rate: 1
+Try number: 276
+Failure number: 101
+Success rate: 0.634058
+Fill rate: 1
+Try number: 265
+Failure number: 101
+Success rate: 0.618868
+Fill rate: 1
+Try number: 275
+Failure number: 101
+Success rate: 0.632727
+Fill rate: 1
+Try number: 251
+Failure number: 101
+Success rate: 0.59761
+Fill rate: 1
+Try number: 271
+Failure number: 101
+Success rate: 0.627306
+Fill rate: 1
+Try number: 250
+Failure number: 101
+Success rate: 0.596
+Fill rate: 1
+Try number: 263
+Failure number: 101
+Success rate: 0.61597
+Fill rate: 1
+Try number: 238
+Failure number: 101
+Success rate: 0.57563
+Fill rate: 1
+Try number: 282
+Failure number: 101
+Success rate: 0.641844
+Fill rate: 1
+Try number: 228
+Failure number: 101
+Success rate: 0.557018
+Fill rate: 1
+Try number: 246
+Failure number: 101
+Success rate: 0.589431
+Fill rate: 1
+Try number: 269
+Failure number: 101
+Success rate: 0.624535
+Fill rate: 1
+Try number: 233
+Failure number: 101
+Success rate: 0.566524
+Fill rate: 1
+Try number: 236
+Failure number: 101
+Success rate: 0.572034
+Fill rate: 1
+Try number: 221
+Failure number: 101
+Success rate: 0.542986
+Fill rate: 1
+Try number: 234
+Failure number: 101
+Success rate: 0.568376
+Fill rate: 1
+Try number: 228
+Failure number: 101
+Success rate: 0.557018
+Fill rate: 1
+Try number: 254
+Failure number: 101
+Success rate: 0.602362
+Fill rate: 1
+Try number: 282
+Failure number: 101
+Success rate: 0.641844
+Fill rate: 1
+Try number: 255
+Failure number: 101
+Success rate: 0.603922
+Fill rate: 1
+Try number: 224
+Failure number: 101
+Success rate: 0.549107
+Fill rate: 1
+Try number: 254
+Failure number: 101
+Success rate: 0.602362
+Fill rate: 1
+Try number: 232
+Failure number: 101
+Success rate: 0.564655
+Fill rate: 1
+Try number: 249
+Failure number: 101
+Success rate: 0.594378
+Fill rate: 1
+Try number: 244
+Failure number: 101
+Success rate: 0.586066
+Fill rate: 1
+Try number: 257
+Failure number: 101
+Success rate: 0.607004
+Fill rate: 1
+Try number: 231
+Failure number: 101
+Success rate: 0.562771
+Fill rate: 1
+Try number: 255
+Failure number: 101
+Success rate: 0.603922
+Fill rate: 1
+Try number: 214
+Failure number: 101
+Success rate: 0.528037
+Fill rate: 1
+Try number: 279
+Failure number: 101
+Success rate: 0.637993
+Fill rate: 1
+Try number: 210
+Failure number: 101
+Success rate: 0.519048
+Fill rate: 1
+Try number: 229
+Failure number: 101
+Success rate: 0.558952
+Fill rate: 1
+Try number: 208
+Failure number: 101
+Success rate: 0.514423
+Fill rate: 1
+Try number: 232
+Failure number: 101
+Success rate: 0.564655
+Fill rate: 1
+Try number: 240
+Failure number: 101
+Success rate: 0.579167
+Fill rate: 1
+Try number: 245
+Failure number: 101
+Success rate: 0.587755
+Fill rate: 1
+Try number: 307
+Failure number: 101
+Success rate: 0.67101
+Fill rate: 1
+Try number: 257
+Failure number: 101
+Success rate: 0.607004
+Fill rate: 1
+Try number: 251
+Failure number: 101
+Success rate: 0.59761
+Fill rate: 1
+Try number: 240
+Failure number: 101
+Success rate: 0.579167
+Fill rate: 1
+Try number: 221
+Failure number: 101
+Success rate: 0.542986
+Fill rate: 1
+Try number: 255
+Failure number: 101
+Success rate: 0.603922
+Fill rate: 1
+Try number: 256
+Failure number: 101
+Success rate: 0.605469
+Fill rate: 1
+[2024-04-04 15:11:19.334]       64            30938        99.3641%    
+Try number: 137
+Failure number: 24
+Success rate: 0.824818
+Fill rate: 0.96875
+Try number: 68
+Failure number: 68
+Success rate: 0
+Fill rate: 0.8125
+Try number: 50
+Failure number: 16
+Success rate: 0.68
+Fill rate: 1
+Try number: 29
+Failure number: 4
+Success rate: 0.862069
+Fill rate: 1
+Try number: 1
+Failure number: 1
+Success rate: 0
+Fill rate: 0.96875
+Try number: 2
+Failure number: 2
+Success rate: 0
+Fill rate: 0.8125
+Try number: 1
+Failure number: 1
+Success rate: 0
+Fill rate: 0.6875
+[2024-04-04 15:11:19.759]       71             185         99.9582%    
+[2024-04-04 15:11:19.761] 
+[2024-04-04 15:11:19.761]    Uncollapsed Stuck-at Fault Summary Report   
+[2024-04-04 15:11:19.761] -----------------------------------------------
+[2024-04-04 15:11:19.761] fault class                     code   #faults
+[2024-04-04 15:11:19.761] ------------------------------  ----  ---------
+[2024-04-04 15:11:19.761] Detected                         DT      31123
+[2024-04-04 15:11:19.761] Possibly detected                PT          0
+[2024-04-04 15:11:19.761] Possibly undetected              PU          0
+[2024-04-04 15:11:19.761] Undetectable                     UD         13
+[2024-04-04 15:11:19.761] ATPG untestable                  AU          0
+[2024-04-04 15:11:19.761] Not detected                     AB          0
+[2024-04-04 15:11:19.761] -----------------------------------------------
+[2024-04-04 15:11:19.761] total faults                             31136
+[2024-04-04 15:11:19.761] fault coverage                         99.958%
+[2024-04-04 15:11:19.761] test coverage                         100.000%
+[2024-04-04 15:11:19.761] -----------------------------------------------
+[2024-04-04 15:11:19.761] 
+[2024-04-04 15:11:19.829] #Pattern : 71
+[2024-04-04 15:11:19.829] RunTime  : 14.670 s
+[2024-04-04 15:11:19.829] Total_Backtracks  : 724
+[2024-04-04 15:11:19.829] ATPG End ...
+[2024-04-04 15:11:19.829] 
+[2024-04-04 15:11:19.830] [info] [TestATPG.cpp:112] # end test 
+[       OK ] TestATPG.TestFault (14883 ms)
+[----------] 1 test from TestATPG (14883 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14883 ms total)
+[  PASSED  ] 1 test.
